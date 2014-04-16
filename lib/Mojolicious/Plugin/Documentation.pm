@@ -32,6 +32,7 @@ sub register {
         my @route;
         my @children = @{ $r->children };
         for my $child ( @children ) {
+            next if exists $child->pattern->defaults->{cb};
             my $pattern = $child->pattern->pattern;
                $pattern //= '/';
             my %default = %{ $child->pattern->defaults };
@@ -109,7 +110,7 @@ Mojolicious::Plugin::Documentation - A work in progress; intended to be a better
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DO NOT USE THIS
 
