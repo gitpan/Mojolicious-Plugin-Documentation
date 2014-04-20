@@ -31,7 +31,7 @@ no_index:
 provides:
   Mojolicious::Plugin::Documentation:
     file: lib/Mojolicious/Plugin/Documentation.pm
-    version: '0.02'
+    version: '0.03'
 requires:
   File::Basename: '0'
   File::Spec::Functions: '0'
@@ -45,7 +45,7 @@ resources:
   bugtracker: https://github.com/sharabash/mojolicious-plugin-documentation/issues
   homepage: https://metacpan.org/release/Mojolicious-Plugin-Documentation
   repository: git://github.com/sharabash/mojolicious-plugin-documentation.git
-version: '0.02'
+version: '0.03'
 x_authority: cpan:AMIRITE
 x_contributors:
   - 'Nour Sharabash <nour.sharabash@gmail.com>'

@@ -62,7 +62,7 @@
    "provides" : {
       "Mojolicious::Plugin::Documentation" : {
          "file" : "lib/Mojolicious/Plugin/Documentation.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -77,7 +77,7 @@
          "web" : "https://github.com/sharabash/mojolicious-plugin-documentation"
       }
    },
-   "version" : "0.02",
+   "version" : "0.03",
    "x_authority" : "cpan:AMIRITE",
    "x_contributors" : [
       "Nour Sharabash <nour.sharabash@gmail.com>"
